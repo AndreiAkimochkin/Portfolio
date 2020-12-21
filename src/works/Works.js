@@ -2,13 +2,14 @@ import style from './works.module.css';
 import React from 'react'
 import styleContainer from "../common/styles/container.module.css";
 import {Work} from "./work/Work";
+import {Title} from "../common/components/title/Title";
 
 
 export const Works = () => {
     return (
         <div className={style.worksBlock}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
-                <h2 className={style.title}>Works</h2>
+              <Title/>
                 <div className={style.works}>
                     <Work
                         title={'Projects name 1'}

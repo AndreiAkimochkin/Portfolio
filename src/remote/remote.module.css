@@ -1,5 +1,5 @@
 .remoteBlock {
-    height: 50vh;
+    min-height: 50vh;
     background-color: #fffa0a;
 }
 
