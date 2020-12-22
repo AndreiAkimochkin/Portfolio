@@ -9,10 +9,10 @@ export const Work = (props) => {
                     <a href="link">Show me</a>
                 </div>
             </div>
-            <h3>{props.title}</h3>
-            <span className={style.description}>
-                    {props.description}
-                </span>
+            <div className={style.workInfo}>
+                <h3 className={style.workTitle}>{props.title}</h3>
+                <span className={style.description}> {props.description}</span>
+            </div>
 
         </div>
 

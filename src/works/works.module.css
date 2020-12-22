@@ -16,11 +16,13 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items: flex-start;
 }
 
 .title {
     background-color: #1f1f20;
-    margin-bottom: 30px;
+    margin-top: 30px;
 
 }
 
@@ -43,5 +45,4 @@
 
     }
 }
-
 
