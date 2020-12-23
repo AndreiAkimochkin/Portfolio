@@ -1,4 +1,4 @@
-import style from './title.module.css';
+import style from './title.module.scss';
 import React from 'react'
 
 

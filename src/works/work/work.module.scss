@@ -1,0 +1,71 @@
+
+@import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixin";
+.work {
+    width: 250px;
+    background-color:$bgSecondColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+    .image {
+        height: 200px;
+        width: 250px;
+        background-color: $bgColor;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            background-color: $bgColor;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.4;
+        }
+        .icon {
+            padding: 10px 20px;
+            background-color: $primaryColor;
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+    .workInfo {
+        padding: 25px 20px;
+        .workTitle {
+            @include text(('Open Sans', sans-serif),  18px,  600);
+            margin: 7px 0 10px;
+        }
+
+        .description {
+            @include text(('Open Sans', sans-serif), 14px,  500);
+
+            //font-family: 'Open Sans', sans-serif;
+            //color: $textColor;
+            //font-size: 14px;
+            //font-weight: 500;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+
+    }
+
+}
+
+
+
+
+
+
+
