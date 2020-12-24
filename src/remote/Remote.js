@@ -1,4 +1,4 @@
-import style from './remote.module.css';
+import style from './remote.module.scss';
 import React from 'react'
 import styleContainer from '../common/styles/container.module.css'
 
@@ -10,7 +10,7 @@ export const Remote = () => {
                     Considering options for remote work </h2>
                 <div className={style.description}>
                     <h3>
-                        <button>{'<<<Hire me>>>'}</button>
+                        <button className={style.btn}>Hire me</button>
                     </h3>
 
                 </div>

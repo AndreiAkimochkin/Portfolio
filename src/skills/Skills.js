@@ -1,4 +1,4 @@
-import style from './skills.module.css';
+import style from './skills.module.scss';
 import React from 'react'
 import styleContainer from './../common/styles/container.module.css'
 import {Skill} from "./skill/Skill";
@@ -11,14 +11,32 @@ export const Skills = () => {
               <Title text={"Skills"}/>
                 <div className={style.skills}>
                     <Skill
-                        title={'Form 1'}
+                        title={'HTML'}
                         description={' Something about each my skills 1'}/>
                     <Skill
-                        title={'Form 2'}
+                        title={'JAVASCRIPT'}
                         description={' Something about each my skills 2'}/>
                     <Skill
-                        title={'Form 3'}
+                        title={'CSS'}
                         description={' Something about each my skills 3'}/>
+                    <Skill
+                        title={'REACT'}
+                        description={' Something about each my skills 4'}/>
+                    <Skill
+                        title={'REDUX'}
+                        description={' Something about each my skills 5'}/>
+                    <Skill
+                        title={'THUNK'}
+                        description={' Something about each my skills 6'}/>
+                    <Skill
+                        title={'GIT'}
+                        description={' Something about each my skills 7'}/>
+                    <Skill
+                        title={'REST API'}
+                        description={' Something about each my skills 8'}/>
+                    <Skill
+                        title={'STORYBOOK/JEST'}
+                        description={' Something about each my skills 9'}/>
                 </div>
             </div>
 

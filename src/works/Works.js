@@ -22,11 +22,11 @@ export const Works = () => {
                 <div className={style.works}>
                     <Work
                         style={socialNet}
-                        title={'Projects name 1'}
+                        title={'Social Network'}
                         description={' Short description 1'}/>
                     <Work
                         style={todoList}
-                        title={'Projects name 2'}
+                        title={'To Do List'}
                         description={' Short description 2'}/>
 
                 </div>

@@ -1,13 +1,11 @@
 
 @import "../../styles/sass/variables";
+@import "../../styles/sass/mixin";
 .title {
-    background-color:#1f1f20;
-    margin-bottom: 30px;
-    .title h2 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 36px;
-        color: $textColor;
-        font-weight: 500;
+    background-color:$bgColor;
+     margin-bottom: 30px;
+    & h2 {
+      @include text(('Poppins', sans-serif), 36px,  500);
         line-height: 1.6;
         margin: 0;
     }

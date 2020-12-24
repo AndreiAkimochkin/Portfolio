@@ -1,4 +1,4 @@
-import style from './nav.module.css';
+import style from './nav.module.scss';
 import React from 'react'
 
 export const Nav = () => {

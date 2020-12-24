@@ -1,4 +1,4 @@
-import style from './skill.module.css';
+import style from './skill.module.scss';
 import React from 'react'
 
 export const Skill = (props) => {

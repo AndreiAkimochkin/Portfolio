@@ -1,0 +1,23 @@
+
+@import "../../common/styles/sass/mixin";
+
+.skill {
+    width: 250px;
+    @include position(flex, column,center, center, #252525);
+    @include text(('Open Sans', sans-serif),  1rem,  500);
+    line-height: 1.2;
+    box-sizing: border-box;
+    margin: 20px;
+    .icon {
+        height: 60px;
+        width: 60px;
+        background-color: #ffb400;
+    }
+}
+
+
+
+.description {
+
+}
+
