@@ -1,6 +1,6 @@
 import style from './skills.module.scss';
 import React from 'react'
-import styleContainer from './../common/styles/container.module.css'
+import styleContainer from '../common/styles/container.module.scss'
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
 

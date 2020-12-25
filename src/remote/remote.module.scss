@@ -1,37 +1,25 @@
 .remoteBlock {
-    min-height: 50vh;
-    background-color: #1f1f20;
-    .remoteContainer {
-        flex-direction: column;
-        .title {
-            background-color: #1f1f20;
-            justify-content: flex-start;
-        }
-        .description {
-            background-color: #ffb400;
-            margin-bottom: 20px;
-        .btn {
-            background-color: #ffb400;
-            color: #fff;
-            box-shadow: none !important;
-            border-radius: 26px;
-            font-weight: 500;
-            height: 46px;
-            line-height: 46px;
-            font-size: 15px;
-            text-transform: uppercase;
-            padding: 0 40px;
-            outline: none !important;
-            overflow: hidden;
-            display: inline-block;
-            position: relative;
-            font-family: 'Poppins', sans-serif;
-            letter-spacing: .5px;
-            border: 0;
-            box-sizing: border-box;
-        }
-        }
+  min-height: 50vh;
+  background-color: #1f1f20;
+
+  .remoteContainer {
+    flex-direction: column;
+
+    .title {
+      background-color: #1f1f20;
+      justify-content: flex-start;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.2;
+        font-weight: 600;
+        padding-bottom: 22px;
+        font-size: 26px;
     }
+
+    .description {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
 }
 
 

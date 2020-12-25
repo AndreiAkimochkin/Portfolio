@@ -1,4 +1,4 @@
-import style from './net.module.css';
+import style from './net.module.scss';
 import React from 'react'
 
 export const Net = (props) => {

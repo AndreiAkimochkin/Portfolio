@@ -1,6 +1,6 @@
-import style from './footer.module.css';
+import style from './footer.module.scss';
 import React from 'react'
-import styleContainer from './../common/styles/container.module.css'
+import styleContainer from '../common/styles/container.module.scss'
 import {Net} from "./socialNets/Net";
 
 export const Footer = () => {

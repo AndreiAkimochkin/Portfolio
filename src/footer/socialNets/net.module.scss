@@ -1,0 +1,14 @@
+
+@import "../../common/styles/sass/mixin";
+
+.net {
+    width: 150px;
+    @include position (flex, column, center, center, $bgColor);
+ }
+
+
+
+.description {
+
+}
+

@@ -1,4 +1,4 @@
-import style from './form.module.css';
+import style from './form.module.scss';
 import React from 'react'
 
 export const Form = (props) => {
