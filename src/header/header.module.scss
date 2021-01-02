@@ -1,8 +1,0 @@
-@import "../common/styles/sass/mixin";
-
-.header {
-    height: 80px;
-       @include position (flex, row, center,  flex-end, $bgColor);
-  padding-right: 20px;
-}
-
