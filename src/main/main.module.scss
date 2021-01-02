@@ -48,10 +48,12 @@
   .photo {
     width: 300px;
     height: 400px;
+    border-radius: 100px;
     background-color: #1f1f20;
-      background-size: cover;
-      background-position: center;
-      position: relative;
+    background-image: url(../assets/image/meImage.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
   }
 
 

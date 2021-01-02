@@ -2,7 +2,9 @@ import style from './main.module.scss';
 import React from 'react'
 import styleContainer from '../common/styles/container.module.scss'
 
+
 export const Main = () => {
+
     return (
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
@@ -13,7 +15,10 @@ export const Main = () => {
                     <p className={style.p}>I'm a front‑end developer focused on crafting clean & user‑friendly experiences,
                         I am passionate about building excellent software that improves the lives of those around me.</p>
                 </div>
-                <div className={style.photo}></div>
+                <div className={style.photo}>
+
+
+                </div>
             </div>
 
         </div>
