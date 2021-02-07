@@ -20,6 +20,46 @@
   text-align: center;
   vertical-align: middle;
   box-sizing: border-box;
+  .span {
+    position: relative;
+    display: block;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    line-height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px;
+    text-align: center;
+  }
+  &:before {
+    content: "\f1d8";
+    font: 15px/1.2em FontAwesome;
+    color: #fff;
+    position: absolute;
+    height: 100%;
+    right: 25px;
+    top: 50%;
+    margin-top: -9px;
+    transition: all 0.3s;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+
+  }
+  //&:hover {
+  //  &::after{
+  //    position: relative;
+  //    display: block;
+  //    transition: all 0.3s;
+  //    cursor: pointer;
+  //    content: "\f1d8";
+  //  }
+  //}
 }
 
 

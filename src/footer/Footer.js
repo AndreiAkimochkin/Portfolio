@@ -1,10 +1,12 @@
 import style from './footer.module.scss';
 import React from 'react'
 import styleContainer from '../common/styles/container.module.scss'
+import Fade from 'react-reveal/Fade';
 
 export const Footer = () => {
     return (
         <div className={style.footerBlock}>
+            <Fade bottom>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <h3 className={style.title}>don't be shy!</h3>
                 <p className={style.text}>Feel free to get in touch with me.
@@ -34,7 +36,7 @@ export const Footer = () => {
 
                 {/*</div>*/}
             </div>
-
+            </Fade>
         </div>
     );
 }

@@ -5,6 +5,7 @@ import {Work} from "./work/Work";
 import {Title} from "../common/components/title/Title";
 import  socialNetImage from "./../assets/image/SocialNet.jpg"
 import  todoListImage from "./../assets/image/TodoList.jpg"
+import Fade from 'react-reveal/Fade';
 
 
 export const Works = () => {
@@ -16,7 +17,8 @@ export const Works = () => {
         backgroundImage: `url(${todoListImage})`,
     };
        return (
-        <div className={style.worksBlock}>
+        <div id='works' className={style.worksBlock}>
+            <Fade right>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
               <Title text={'Works'}/>
                 <div className={style.works}>
@@ -32,7 +34,7 @@ export const Works = () => {
                 </div>
             </div>
 
-
+            </Fade>
         </div>
     );
 }

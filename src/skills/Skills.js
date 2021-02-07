@@ -3,10 +3,12 @@ import React from 'react'
 import styleContainer from '../common/styles/container.module.scss'
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
+import Fade from 'react-reveal/Fade';
 
 export const Skills = () => {
     return (
-        <div className={style.skillsBlock}>
+        <div id='skills' className={style.skillsBlock}>
+            <Fade left>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
               <Title text={"Skills"}/>
                 <div className={style.skills}>
@@ -39,7 +41,7 @@ export const Skills = () => {
                         description={' Something about each my skills 9'}/>
                 </div>
             </div>
-
+                </Fade>
 
         </div>
     );

@@ -5,8 +5,8 @@ import React from 'react'
 export const SubmitButton = (props) => {
     return (
 
-        <button className={style.btn}>
-            <span>{props.text}</span>
+        <button type='submit' className={style.btn}>
+            <span className={style.span}>{props.text}</span>
         </button>
     )
 };
